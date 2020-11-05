@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 const port = 3000; //porta padrão
 const sql = require('mssql');
 
-//Nessa Linha Como uso Azure nao posso esquecer do (encrypt=tue)
+//Nessa Linha Como uso Azure nao posso esquecer do (encrypt=true)
 const connStr = "Server=XXX;Database=XXX;User Id=XXX;Password=XXX;encrypt=true";
 
 sql.connect(connStr)
